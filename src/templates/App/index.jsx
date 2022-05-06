@@ -1,11 +1,11 @@
-import './App.css';
+import * as Styled from './styles';
 
 function Home() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World!</h1>
-      </header>
+      <Styled.Wrapper background="blue">
+        <h1>Hello</h1>
+      </Styled.Wrapper>
     </div>
   );
 }
